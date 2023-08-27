@@ -3,7 +3,7 @@ import openai
 import concurrent.futures
 from typing import List
 
-openai.api_key = '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'  
+openai.api_key = 'ADD OPENAI API KEY HERE'  
 
 def get_ai_response(prompt: str, system_message: str) -> str:
     print("Getting AI response...")
